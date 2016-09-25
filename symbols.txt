@@ -1,0 +1,48 @@
+= 	1.equals		
+== 	2.compare equals
+! 	3.negate
+!=	4.not equals
+[	5.left bracket
+[] 	6.array element - also test for [   ] items within brackets (no spaces allowed) - in the case of [[array]] - it will always take the innermost brackets - so [[array]] = [ left brace, [array] array element, ] right brace
+    ]	7.rightbrace
+-	8.minus
+-- 	9.decrement
+-> 	10.structure pointer
+-= 	11.subtractequals
++	12.add
+++ 	13.increment
++=	14.plusequals
+    ?	bad token
+    ? true : false 15.keyword    
+<	16.less than
+<= 	17.less than or equal
+<< 	18.shift left
+<<=	19.left shift and assign
+> 	20.greater than
+>= 	21.greater than or equal
+>> 	22.shift right
+>>= 	23.shift right and assign
+&	24.bitwise and
+&&	25.logical and	
+&= 	26.bitwise and assign
+%	27.modulus
+%= 	28.modulus andd assign
+~ 	29.1's compliment
+    (	30.left parenthesis
+    ()	31.function - also test for (    ) items within parenthesis (no spaces allowed) - in the case of ((array)) - it will always take the innermost parenthesis - so ((array)) = ( left parenthesis, (array) function, ) right parenthesis
+    )	32.right parenthesis
+*	33.multiply
+*= 	34.multiplyequals
+/ 	35.divide
+/= 	36.divideequals
+   //	comment - stopped only by '\n'
+   /* 	comment - stopped only by */
+^	37.bitwise exclusive or
+^=	38.bitwise exclusive or and assign
+.	39.dot operator
+|	40.bitwise exclusive or
+||	41.logical or
+|= 	42.bitwise or and assign
+   "	quote - bad token unless matching " quote is found
+   '	quote - bad token unless matching ' single quote is found
+   sizeof()
